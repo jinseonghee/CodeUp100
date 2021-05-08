@@ -3,8 +3,8 @@ package kr.co.codejsh;
 import java.util.Scanner;
 
 public class Code1031 {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         /*
         System.out.println("십진수를 입력하세요 : ");
         String a = new Scanner(System.in).next();

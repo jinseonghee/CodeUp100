@@ -3,12 +3,12 @@ package kr.co.codejsh;
 import java.util.Scanner;
 
 public class Code1010 {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("숫자를 입력 하세요 : ");
-        int i=scan.nextInt();
+        int i = scan.nextInt();
         System.out.println(i);
         //리패토링
         System.out.println(new Scanner(System.in).nextLine());

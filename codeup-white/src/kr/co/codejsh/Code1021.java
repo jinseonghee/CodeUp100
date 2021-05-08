@@ -15,7 +15,5 @@ public class Code1021 {
         System.out.println(word);*/
 
         System.out.println(new Scanner(System.in).nextLine());
-
-
     }
 }

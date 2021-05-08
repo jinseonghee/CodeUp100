@@ -21,6 +21,6 @@ public class Code1050 {
     }
 
     private static boolean isCompareToTemp(long[] inputData) {
-        return inputData[0] == (inputData[1]);
+        return inputData[0] == inputData[1];
     }
 }

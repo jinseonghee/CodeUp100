@@ -3,8 +3,8 @@ package kr.co.codejsh;
 import java.util.Scanner;
 
 public class Code1015 {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         /*
         float a = 0.123f;
         System.out.printf("%.3f" , a);
