@@ -14,10 +14,10 @@ public class Code1050 {
         System.out.println(getResultByInputValues(inputData));
     }
 
-    private static String getResultByInputValues(long[] inputData) {
+    private static long getResultByInputValues(long[] inputData) {
         if (isCompareToTemp(inputData))
-            return "1";
-        return "0";
+            return 1L;
+        return 0L;
     }
 
     private static boolean isCompareToTemp(long[] inputData) {
