@@ -5,10 +5,8 @@ import java.util.Scanner;
 public class Code1060 {
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int a = scan.nextInt();
-        int b = scan.nextInt();
-        System.out.println(a&b);
 
+        String inputData[] = new Scanner(System.in).nextLine().split(" ");
+        System.out.println(Integer.parseInt(inputData[0]) & Integer.parseInt(inputData[1]));
     }
 }
