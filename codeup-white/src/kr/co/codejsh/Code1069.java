@@ -5,11 +5,10 @@ import java.util.Scanner;
 public class Code1069 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
 
-        char a = sc.nextLine().charAt(0);
+        char inputAlphabet = new Scanner(System.in).nextLine().charAt(0);
 
-        switch (a) {
+        switch (inputAlphabet) {
             case 'A':
                 System.out.println("best!!!");
                 break;
