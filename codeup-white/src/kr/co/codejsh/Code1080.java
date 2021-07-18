@@ -7,19 +7,12 @@ public class Code1080 {
     public static void main(String[] args) {
 
         int inputData = new Scanner(System.in).nextInt();
+        int i = 0;
         int sum = 0;
 
-        for(int i = 1; i < inputData; i++) {
-            sum += i;
-            /*if (!(sum < inputData)) {
-                System.out.println(i);
-                break;
-            }*/
-
-            if (sum >= inputData) {
-                System.out.println(i);
-                break;
-            }
+        for (i = 0; sum < inputData; i++) {
+            sum = sum + i;
         }
+        System.out.println(i-1);
     }
 }
