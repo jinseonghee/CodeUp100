@@ -15,7 +15,7 @@ public class Code1253 {
         int B = Integer.parseInt(st.nextToken());
 
         int add =1;
-        if (A==B) {	
+        if (A==B) {
             bw.append(String.valueOf(A));
         } else if (A>B) {
             bw.append(String.valueOf(B)+" ");
